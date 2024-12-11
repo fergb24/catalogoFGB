@@ -1,0 +1,19 @@
+{
+    "canciones": [
+      {
+        "titulo": "Buscaté un hombre que te quiera",
+        "genero": "Balada",
+        "autor": "El Arrebato"
+      },
+      {
+        "titulo": "Highway to Hell",
+        "genero": "Rock",
+        "autor": "AC/DC"
+      },
+      {
+        "titulo": "Si te vas...",
+        "genero": "Rock",
+        "autor": "Extremoduro"
+      }
+    ]
+  }
