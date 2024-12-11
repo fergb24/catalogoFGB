@@ -14,6 +14,46 @@
         "titulo": "Si te vas...",
         "genero": "Rock",
         "autor": "Extremoduro"
+      },
+      {
+        "titulo": "Versos Perversos",
+        "genero": "Rap",
+        "autor": "Lil Bokeron"
+      },
+      {
+        "titulo": "Duro",
+        "genero": "Pop",
+        "autor": "Quevedo"
+      },
+      {
+        "titulo": "Un beso y una flor",
+        "genero": "Balada",
+        "autor": "Nino Bravo"
+      },
+      {
+        "titulo": "Yo te esperaré",
+        "genero": "Rap",
+        "autor": "Cali y el Dandee"
+      },
+      {
+        "titulo": "Kisiera yo saber",
+        "genero": "Rumba",
+        "autor": "Melendi"
+      },
+      {
+        "titulo": "La Playa",
+        "genero": "Pop",
+        "autor": "La oreja de Van Gogh"
+      },
+      {
+        "titulo": "Fiesta Pagana",
+        "genero": "Rock",
+        "autor": "Mago de Oz"
+      },
+      {
+        "titulo": "One more night",
+        "genero": "Pop",
+        "autor": "Maroon 5"
       }
     ]
   }
