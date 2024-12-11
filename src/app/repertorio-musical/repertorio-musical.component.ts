@@ -1,12 +1,23 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { CancionesService, Cancion } from '../servicios/canciones.service';
+import { CommonModule } from '@angular/common';
+
 
 @Component({
   selector: 'app-repertorio-musical',
   standalone: true,
-  imports: [],
+  imports: [CommonModule],
   templateUrl: './repertorio-musical.component.html',
-  styleUrl: './repertorio-musical.component.css'
+  styleUrls: ['./repertorio-musical.component.css']
 })
-export class RepertorioMusicalComponent {
+export class RepertorioMusicalComponent implements OnInit {
+  canciones: Cancion[] = [];
 
+  constructor(private cancionesService: CancionesService) { }
+
+  ngOnInit(): void {
+    this.cancionesService.getCanciones().subscribe(data => {
+      this.canciones = data;
+    });
+  }
 }

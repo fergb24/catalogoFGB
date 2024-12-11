@@ -10,22 +10,12 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
-            <td>La vida es un carnaval</td>
-            <td>Salsa</td>
-            <td>Celia Cruz</td>
-          </tr>
-          <tr>
-            <td>Hotel California</td>
-            <td>Rock</td>
-            <td>Eagles</td>
-          </tr>
-          <tr>
-            <td>Bohemian Rhapsody</td>
-            <td>Rock</td>
-            <td>Queen</td>
+          <tr *ngFor="let cancion of canciones">
+            <td>{{ cancion.titulo }}</td>
+            <td>{{ cancion.genero }}</td>
+            <td>{{ cancion.autor }}</td>
           </tr>
         </tbody>
       </table>
     </div>
-</div>
+  </div>
