@@ -1,6 +1,6 @@
 # Musify
 
-Este proyecto trata sobre una lista con nombre de canciones. Aparte del nombre, en cada canción también aparecerá: El título, el género musical yel autor
+Este proyecto trata sobre una lista con nombre de canciones. Aparte del nombre, en cada canción también aparecerá: El género musical y el autor
 
 ## Registro Musical
 
